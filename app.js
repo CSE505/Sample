@@ -3,10 +3,10 @@ var student = {
   type: "student"
 };
 
-document.addEventListener('DOMContentLoaded',contentLoaded);
+document.addEventListener('DOMContentLoaded', contentLoaded);
 
 function contentLoaded(event){
-  document.getElementById('name').addEventListener("keyup",keyup);
+  document.getElementById('name').addEventListener("keyup",keyUp);
 }
 
 function keyUp(event){
