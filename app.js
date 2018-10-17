@@ -22,6 +22,6 @@ for (var i=0; i<student.name.length; i++){
 }
 
 //Insert result into Page
-var output = "Total Numeric value of person's naem is" + totalNameValue;
+var output = "Total Numeric value of person's name is" + totalNameValue;
 document.getElementById('output').innerText = output;
 }
